@@ -9,7 +9,7 @@ public class CustomNamingStrategy extends PhysicalNamingStrategyStandardImpl {
     @Value("${database.prefix.enable}")
     private boolean isPrefixed = true;
     @Value("${database.prefix.name:jpa_shop}")
-    private String PREFIX = "jpa_shop_";
+    private String PREFIX = "jpa_";
 
     @Override
     public Identifier toPhysicalTableName(Identifier name, JdbcEnvironment context) {

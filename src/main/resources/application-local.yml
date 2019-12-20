@@ -1,7 +1,4 @@
 spring:
-  thymeleaf:
-    cache: false
-    enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/jpa_shop
     username: root
@@ -17,7 +14,3 @@ spring:
       hibnerate:
         format_sql: true
     open-in-view: false
-database:
-  prefix:
-    enable: true
-    name: "shop"
