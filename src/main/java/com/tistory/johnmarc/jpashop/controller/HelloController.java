@@ -2,7 +2,6 @@ package com.tistory.johnmarc.jpashop.controller;
 
 import com.tistory.johnmarc.jpashop.domain.Address;
 import com.tistory.johnmarc.jpashop.domain.Member;
-import com.tistory.johnmarc.jpashop.repository.MemberRepository;
 import lombok.extern.slf4j.Slf4j;
 import net.bytebuddy.utility.RandomString;
 import org.springframework.stereotype.Controller;
